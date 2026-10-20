@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Showcase | Graphic Designer & Video Editor</title>
+  <meta name="description" content="আমার গ্রাফিক ডিজাইন ও ভিডিও এডিটিং প্রজেক্টের এক্সক্লুসিভ শোকেস। কমার্শিয়াল ভিডিও, ব্র্যান্ড আইডেন্টিটি এবং ক্রিয়েটিভ আর্টওয়ার্ক।">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Lighting -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <i class="fa-solid fa-shapes"></i>
+          </div>
+          <div class="brand-text">STUDIO<span>.</span></div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link"><i class="fa-solid fa-house-chimney"></i> হোম (Home)</a></li>
+          <li><a href="projects.html" class="nav-link active"><i class="fa-solid fa-layer-group"></i> প্রজেক্ট শোকেস (Projects)</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> যোগাযোগ (Contact)</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary btn-sm">
+            <span>Hire Me</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html" class="nav-link"><i class="fa-solid fa-house-chimney"></i> হোম (Home)</a>
+      <a href="projects.html" class="nav-link active"><i class="fa-solid fa-layer-group"></i> প্রজেক্ট শোকেস (Projects)</a>
+      <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> যোগাযোগ (Contact)</a>
+      <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem;">
+        <span>Hire Me</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Projects Hero Header Banner -->
+  <section class="projects-header-banner">
+    <div class="container">
+      <span class="section-tag">Featured Works & Case Studies</span>
+      <h1 class="section-title">
+        ক্রিয়েটিভ প্রজেক্ট <span class="gradient-text">শোকেস</span>
+      </h1>
+      <p class="section-subtitle" style="margin: 0 auto; max-width: 650px;">
+        ভিডিও এডিটিং, ব্র্যান্ড আইডেন্টিটি এবং গ্রাফিক আর্টের নির্বাচিত প্রজেক্টসমূহ। প্রতিটি প্রজেক্টে রয়েছে নিজস্ব স্টোরি এবং নিখুঁত ক্রাফটসম্যানশিপ।
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Filtering & Showcase -->
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">
+          <i class="fa-solid fa-border-all"></i>
+          <span>সব কাজ (All Works)</span>
+        </button>
+        <button class="filter-btn" data-filter="video">
+          <i class="fa-solid fa-film"></i>
+          <span>ভিডিও এডিটিং (Video Editing)</span>
+        </button>
+        <button class="filter-btn" data-filter="graphics">
+          <i class="fa-solid fa-bezier-curve"></i>
+          <span>গ্রাফিক ডিজাইন (Graphic Design)</span>
+        </button>
+        <button class="filter-btn" data-filter="branding">
+          <i class="fa-solid fa-fire"></i>
+          <span>ব্র্যান্ডিং (Branding)</span>
+        </button>
+        <button class="filter-btn" data-filter="motion">
+          <i class="fa-solid fa-sparkles"></i>
+          <span>মোশন ও ভিএফএক্স (Motion / VFX)</span>
+        </button>
+      </div>
+
+      <!-- Spotlight Featured Projects -->
+      <div class="spotlight-grid">
+
+        <!-- ==============================================
+             FEATURED SPOTLIGHT 1: VIDEO (project2.mp4)
+             ============================================== -->
+        <div class="spotlight-card" data-category="video motion">
+          <!-- Video Player Showcase Container -->
+          <div class="video-showcase-container">
+            <span class="video-overlay-badge">
+              <i class="fa-solid fa-video"></i>
+              <span>Featured Video Project</span>
+            </span>
+
+            <!-- HTML5 Video Player -->
+            <video 
+              class="video-player-element" 
+              src="portfolio/project2.mp4" 
+              preload="metadata" 
+              playsinline
+              controls>
+              আপনার ব্রাউজার ভিডিও ট্যাগ সাপোর্ট করে না।
+            </video>
+
+            <!-- Custom Controls Overlay -->
+            <div class="video-custom-controls">
+              <button class="control-btn play-pause-btn" title="Play/Pause">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              <div style="display: flex; gap: 0.5rem;">
+                <button class="control-btn mute-btn" title="Mute/Unmute">
+                  <i class="fa-solid fa-volume-high"></i>
+                </button>
+                <button class="control-btn fullscreen-btn" title="Fullscreen">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Project Details -->
+          <div class="spotlight-info">
+            <div class="project-meta-pills">
+              <span class="meta-pill"><i class="fa-solid fa-star"></i> Spotlight</span>
+              <span class="meta-pill cyan">Video Editing</span>
+              <span class="meta-pill">Sound & Grade</span>
+            </div>
+
+            <h3>সিনেমাটিক কমার্শিয়াল ও মোশন রিল</h3>
+            
+            <p>
+              ডায়নামিক রিদম ম্যাচিং, সাউন্ড এফেক্টস সিঙ্ক এবং আধুনিক কালার গ্রেডিং দিয়ে সম্পন্ন করা আকর্ষণীয় ভিডিও এডিট। এই প্রজেক্টটিতে ভিউয়ার এটেনশন ধরে রাখার জন্য ট্রানজিশন ও সিনেমাটিক পেসিং নিখুঁতভাবে ফুটিয়ে তোলা হয়েছে।
+            </p>
+
+            <div class="spec-list">
+              <div class="spec-list-item">
+                <strong>সফটওয়্যার (Software)</strong>
+                <span>Premiere Pro & DaVinci</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>রোল (Role)</strong>
+                <span>Lead Video Editor & Colorist</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>ক্যাটাগরি (Category)</strong>
+                <span>Commercial / Cinematic</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>রেজোলিউশন (Resolution)</strong>
+                <span>High Definition (1080p / 4K)</span>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button 
+                class="btn btn-primary btn-sm" 
+                data-lightbox="true"
+                data-lightbox-type="video"
+                data-lightbox-src="portfolio/project2.mp4"
+                data-lightbox-title="সিনেমাটিক কমার্শিয়াল ও মোশন রিল (Cinematic Video Showcase)"
+                data-lightbox-desc="Premiere Pro এবং DaVinci Resolve দিয়ে নির্মিত সিনেমাটিক কালার গ্রেডিং ও অডিও ডিজাইনের ভিডিও শোকেস।">
+                <i class="fa-solid fa-play"></i>
+                <span>ফুলস্ক্রিন লাইটবক্স মোডে দেখুন</span>
+              </button>
+              <a href="contact.html" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-comments"></i>
+                <span>অনুরূপ ভিডিও অর্ডার করুন</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==============================================
+             FEATURED SPOTLIGHT 2: GRAPHIC (project1.webp)
+             ============================================== -->
+        <div class="spotlight-card reverse-layout" data-category="graphics branding">
+          <!-- Graphic Details Left -->
+          <div class="spotlight-info">
+            <div class="project-meta-pills">
+              <span class="meta-pill"><i class="fa-solid fa-star"></i> Spotlight</span>
+              <span class="meta-pill">Graphic Design</span>
+              <span class="meta-pill cyan">Visual Art</span>
+            </div>
+
+            <h3>প্রিমিয়াম ভিজ্যুয়াল আর্ট ও ব্র্যান্ড কনসেপ্ট</h3>
+            
+            <p>
+              আই-ক্যাচিং কম্পোজিশন, কালার থিওরি এবং সূক্ষ্ম ডিটেইলিং দিয়ে তৈরি একটি অনন্য গ্রাফিক ডিজাইন প্রজেক্ট। ডিজিটাল ক্যাম্পেইন ও প্রিন্ট মিডিয়ার জন্য উপযুক্ত এই কাজটি ব্র্যান্ডের স্বকীয়তা স্পষ্টভাবে তুলে ধরে।
+            </p>
+
+            <div class="spec-list">
+              <div class="spec-list-item">
+                <strong>টুলস (Tools)</strong>
+                <span>Photoshop & Illustrator</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>রোল (Role)</strong>
+                <span>Visual Designer & Art Director</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>ফরম্যাট (Deliverable)</strong>
+                <span>Ultra HD WebP / Vector</span>
+              </div>
+              <div class="spec-list-item">
+                <strong>ব্যবহার (Usage)</strong>
+                <span>Digital Media & Key Visual</span>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button 
+                class="btn btn-primary btn-sm" 
+                data-lightbox="true"
+                data-lightbox-type="image"
+                data-lightbox-src="portfolio/project1.webp"
+                data-lightbox-title="প্রিমিয়াম ভিজ্যুয়াল আর্ট ও ব্র্যান্ড কনসেপ্ট (Visual Design Concept)"
+                data-lightbox-desc="উচ্চমানের কালার কম্পোজিশন ও ব্র্যান্ড ভিজ্যুয়াল ডিরেকশন সমন্বিত প্রিমিয়াম গ্রাফিক ডিজাইন প্রজেক্ট।">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>জুম করে বড় আকারে দেখুন</span>
+              </button>
+              <a href="contact.html" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-comments"></i>
+                <span>অনুরূপ ডিজাইন রিকোয়েস্ট করুন</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Graphic Image Showcase Container -->
+          <div 
+            class="image-showcase-container"
+            data-lightbox="true"
+            data-lightbox-type="image"
+            data-lightbox-src="portfolio/project1.webp"
+            data-lightbox-title="প্রিমিয়াম ভিজ্যুয়াল আর্ট ও ব্র্যান্ড কনসেপ্ট"
+            data-lightbox-desc="ফটোগ্রাফি, টাইপোগ্রাফি এবং কালার গ্রেডিংয়ের সমন্বিত আর্টওয়ার্ক।">
+            <img src="portfolio/project1.webp" alt="Graphic Design Project Showcase">
+            <div class="image-zoom-overlay">
+              <div class="zoom-icon">
+                <i class="fa-solid fa-expand"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Section Title for More Creative Works -->
+      <div class="section-header" style="margin-top: 5rem; margin-bottom: 2.5rem;">
+        <span class="section-tag">More Projects</span>
+        <h2 class="section-title">অন্যান্য উল্লেখযোগ্য প্রজেক্টসমূহ</h2>
+        <p class="section-subtitle">বিভিন্ন ক্যাটাগরির ক্লায়েন্ট ওয়ার্ক ও কনসেপ্ট ডিজাইন শোকেস।</p>
+      </div>
+
+      <!-- Additional Curated Projects Grid -->
+      <div class="projects-gallery-grid">
+
+        <!-- Card 1: Branding -->
+        <div class="project-card" data-category="graphics branding">
+          <div 
+            class="project-card-media"
+            data-lightbox="true"
+            data-lightbox-type="image"
+            data-lightbox-src="portfolio/project1.webp"
+            data-lightbox-title="লোগো ও কর্পোরেট ব্র্যান্ড আইডেন্টিটি"
+            data-lightbox-desc="মডার্ন টাইপোগ্রাফি ও মিনিমালিস্ট সিম্বলিজমের সমন্বয়ে প্রস্তুত কর্পোরেট ব্র্যান্ডিং সল্যুশন।">
+            <span class="project-card-badge">Branding & Identity</span>
+            <img src="portfolio/project1.webp" alt="Brand Identity System" style="filter: hue-rotate(45deg);">
+          </div>
+          <div class="project-card-body">
+            <div>
+              <h4>মডার্ন ব্র্যান্ড গাইডলাইন ও আইডেন্টিটি</h4>
+              <p>ব্র্যান্ড কালার প্যালেট, টাইপোগ্রাফি হায়ারার্কি, বিজনেস কার্ড এবং সোশ্যাল কিট সমন্বিত পূর্ণাঙ্গ ব্র্যান্ড সিস্টেম।</p>
+            </div>
+            <div class="project-card-footer">
+              <div class="card-tags">
+                <span class="card-tag">Illustrator</span>
+                <span class="card-tag">Vector</span>
+                <span class="card-tag">Print Ready</span>
+              </div>
+              <button 
+                class="btn btn-secondary btn-sm"
+                data-lightbox="true"
+                data-lightbox-type="image"
+                data-lightbox-src="portfolio/project1.webp"
+                data-lightbox-title="মডার্ন ব্র্যান্ড গাইডলাইন ও আইডেন্টিটি"
+                data-lightbox-desc="ক্লায়েন্টের বিজনেস ভ্যালু প্রকাশের জন্য নিখুঁত ভেক্টর ব্র্যান্ডিং।">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: YouTube / Social Video -->
+        <div class="project-card" data-category="video motion">
+          <div 
+            class="project-card-media"
+            data-lightbox="true"
+            data-lightbox-type="video"
+            data-lightbox-src="portfolio/project2.mp4"
+            data-lightbox-title="ইউটিউব ও শর্ট-ফর্ম ভাইরাল ভিডিও এডিটিং"
+            data-lightbox-desc="হাই-রিটেনশন ভিডিও এডিটিং, সাউন্ড পপিং এবং মোশন সাবটাইটেলস।">
+            <span class="project-card-badge">Social Media Video</span>
+            <video src="portfolio/project2.mp4" muted preload="metadata" style="filter: contrast(1.1);"></video>
+            <div class="image-zoom-overlay" style="opacity: 0.8; background: rgba(0,0,0,0.3);">
+              <div class="zoom-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div>
+              <h4>হাই-রিটেনশন সোশ্যাল ভিডিও এডিটিং</h4>
+              <p>ইউটিউব, ইনস্টাগ্রাম রিলস ও টিকটকের জন্য অপ্টিমাইজড ভিডিও। হুক, ট্রানজিশন এবং সাউন্ড ডিজাইনের পারফেক্ট ব্লেন্ড।</p>
+            </div>
+            <div class="project-card-footer">
+              <div class="card-tags">
+                <span class="card-tag">Premiere Pro</span>
+                <span class="card-tag">Sound FX</span>
+                <span class="card-tag">Reels / Shorts</span>
+              </div>
+              <button 
+                class="btn btn-secondary btn-sm"
+                data-lightbox="true"
+                data-lightbox-type="video"
+                data-lightbox-src="portfolio/project2.mp4"
+                data-lightbox-title="হাই-রিটেনশন সোশ্যাল ভিডিও এডিটিং"
+                data-lightbox-desc="সোশ্যাল মিডিয়া গ্রোথের জন্য অপ্টিমাইজড ভিডিও এডিটিং প্যাক।">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Motion Poster -->
+        <div class="project-card" data-category="graphics motion">
+          <div 
+            class="project-card-media"
+            data-lightbox="true"
+            data-lightbox-type="image"
+            data-lightbox-src="portfolio/project1.webp"
+            data-lightbox-title="সাইবারপাঙ্ক থিমে ক্রিয়েটিভ পোস্টার আর্ট"
+            data-lightbox-desc="নিওন লাইটিং ও ফটো ম্যানিপুলেশন আর্টওয়ার্ক।">
+            <span class="project-card-badge">Key Visual / Poster</span>
+            <img src="portfolio/project1.webp" alt="Cyberpunk Poster" style="filter: saturate(1.4) hue-rotate(180deg);">
+          </div>
+          <div class="project-card-body">
+            <div>
+              <h4>কনসেপ্ট আর্ট ও ফটো ম্যানিপুলেশন</h4>
+              <p>সিনেমাটিক মুড, লাইটিং ইফেক্টস এবং টেক্সচার লেয়ারিংয়ের মাধ্যমে তৈরি করা আকর্ষণীয় কী-ভিজ্যুয়াল আর্টওয়ার্ক।</p>
+            </div>
+            <div class="project-card-footer">
+              <div class="card-tags">
+                <span class="card-tag">Photoshop</span>
+                <span class="card-tag">Compositing</span>
+                <span class="card-tag">Art Direction</span>
+              </div>
+              <button 
+                class="btn btn-secondary btn-sm"
+                data-lightbox="true"
+                data-lightbox-type="image"
+                data-lightbox-src="portfolio/project1.webp"
+                data-lightbox-title="কনসেপ্ট আর্ট ও ফটো ম্যানিপুলেশন"
+                data-lightbox-desc="উন্নত মানের ফটো ম্যানিপুলেশন টেকনিক।">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Production Workflow Process -->
+      <div class="section-header" style="margin-top: 6rem; margin-bottom: 2rem;">
+        <span class="section-tag">Creative Workflow</span>
+        <h2 class="section-title">যেভাবে আমি কাজ সম্পন্ন করি</h2>
+        <p class="section-subtitle">প্রতিটি প্রজেক্টে স্বচ্ছতা ও গুণগত মান বজায় রাখার জন্য একটি সুনির্দিষ্ট ধাপ অনুসরণ করি।</p>
+      </div>
+
+      <div class="workflow-grid">
+        <div class="workflow-card">
+          <div class="workflow-step-num">01</div>
+          <h4>ক্লায়েন্ট ব্রিফ ও ডিসকভারি</h4>
+          <p>আপনার চাহিদা, টার্গেট অডিয়েন্স এবং কাঙ্ক্ষিত আউটপুট নিয়ে বিস্তারিত আলোচনা ও রেফারেন্স বিশ্লেষণ।</p>
+        </div>
+
+        <div class="workflow-card">
+          <div class="workflow-step-num">02</div>
+          <h4>কনসেপ্ট ও স্টোরিবোর্ড</h4>
+          <p>ডিজাইনের মুডবোর্ড অথবা ভিডিওর পেসিং ও সাউন্ডট্র্যাক বাছাই করে প্রাথমিক স্কেচ প্রস্তুত করা।</p>
+        </div>
+
+        <div class="workflow-card">
+          <div class="workflow-step-num">03</div>
+          <h4>ডিজাইন ও ভিডিও এডিটিং</h4>
+          <p>হাই-এন্ড সফটওয়্যার ব্যবহার করে ফ্রেম বাই ফ্রেম এডিটিং, কালার টোনিং ও কম্পোজিশন নির্মাণ।</p>
+        </div>
+
+        <div class="workflow-card">
+          <div class="workflow-step-num">04</div>
+          <h4>ফিডব্যাক ও ফাইনাল ডেলিভারি</h4>
+          <p>আপনার রিভিউ অনুযায়ী প্রয়োজনীয় রিভিশন সম্পন্ন করে হাই-কোয়ালিটি ফাইল ফরম্যাটে দ্রুত ডেলিভারি।</p>
+        </div>
+      </div>
+
+      <!-- CTA Box at the bottom of Projects -->
+      <div class="bio-story-card" style="margin-top: 5rem; text-align: center; background: radial-gradient(circle at center, rgba(99,102,241,0.18) 0%, rgba(17,20,29,0.95) 75%);">
+        <h3 style="font-size: 2.2rem; margin-bottom: 1rem; font-weight: 800;">
+          আপনার প্রজেক্টের জন্য কাজ শুরু করতে চান?
+        </h3>
+        <p style="color: var(--text-muted); max-width: 580px; margin: 0 auto 2rem; font-size: 1.05rem;">
+          আপনার যেকোনো ভিডিও এডিটিং বা গ্রাফিক ডিজাইন প্রজেক্টের জন্য এখনই আলোচনা শুরু করুন।
+        </p>
+        <a href="contact.html" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>যোগাযোগ পেজে যান (Get in Touch)</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Project Lightbox Modal -->
+  <div class="modal-backdrop" id="projectLightboxModal" role="dialog" aria-modal="true">
+    <div class="modal-content-container">
+      <button class="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-media-holder">
+        <!-- Dynamically populated with img or video -->
+      </div>
+      <div class="modal-info-holder">
+        <h3 class="modal-title">প্রজেক্ট টাইটেল</h3>
+        <p class="modal-description">প্রজেক্টের বিস্তারিত বিবরণ...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-icon">
+              <i class="fa-solid fa-shapes"></i>
+            </div>
+            <div class="brand-text">STUDIO<span>.</span></div>
+          </a>
+          <p>
+            উচ্চমানের গ্রাফিক ডিজাইন এবং সিনেমাটিক ভিডিও এডিটিংয়ের মাধ্যমে বিশ্বমানের ব্র্যান্ড ভিজ্যুয়াল তৈরিতে আমি প্রতিশ্রুতিবদ্ধ।
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h5>পেইজসমূহ (Navigation)</h5>
+          <ul class="footer-links-list">
+            <li><a href="index.html">হোম (Home)</a></li>
+            <li><a href="projects.html">প্রজেক্টসমূহ (Portfolio)</a></li>
+            <li><a href="contact.html">যোগাযোগ (Contact)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h5>কানেক্ট করুন (Social)</h5>
+          <div class="social-links-grid" style="margin-top: 0; padding-top: 0; border-top: none;">
+            <a href="https://behance.net" target="_blank" class="social-pill" title="Behance"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-pill" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-pill" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-pill" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Creative Portfolio. All rights reserved.</p>
+        <p>Crafted with Passion for Design & Motion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

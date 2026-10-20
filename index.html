@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Portfolio | Graphic Designer & Video Editor</title>
+  <meta name="description" content="পেশাদার গ্রাফিক ডিজাইনার ও ভিডিও এডিটর পোর্টফলিও। ক্রিয়েটিভ ব্র্যান্ডিং, ভিজ্যুয়াল ডিজাইন এবং সিনেমাটিক ভিডিও এডিটিং সল্যুশন।">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Lighting -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <i class="fa-solid fa-shapes"></i>
+          </div>
+          <div class="brand-text">STUDIO<span>.</span></div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active"><i class="fa-solid fa-house-chimney"></i> হোম (Home)</a></li>
+          <li><a href="projects.html" class="nav-link"><i class="fa-solid fa-layer-group"></i> প্রজেক্ট শোকেস (Projects)</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> যোগাযোগ (Contact)</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary btn-sm">
+            <span>Hire Me</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html" class="nav-link active"><i class="fa-solid fa-house-chimney"></i> হোম (Home)</a>
+      <a href="projects.html" class="nav-link"><i class="fa-solid fa-layer-group"></i> প্রজেক্ট শোকেস (Projects)</a>
+      <a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> যোগাযোগ (Contact)</a>
+      <a href="contact.html" class="btn btn-primary" style="margin-top: 1rem;">
+        <span>Hire Me</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Hero Left Column: Intro -->
+        <div class="hero-intro">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>Available for Freelance & Remote Projects</span>
+          </div>
+
+          <h1 class="hero-title">
+            Bringing Ideas to Life Through <span class="gradient-text">Visuals</span> & <span class="cyan-gradient-text">Motion</span>
+          </h1>
+
+          <p class="hero-lead">
+            আমি একজন প্রফেশনাল <strong>গ্রাফিক ডিজাইনার</strong> ও <strong>ভিডিও এডিটর</strong>। 
+            ব্র্যান্ড আইডেন্টিটি, সোশ্যাল মিডিয়া ভিজ্যুয়ালস, কমার্শিয়াল ভিডিও এবং সিনেমাটিক এডিটিংয়ের মাধ্যমে আমি আপনার আইডিয়া ও ব্র্যান্ডকে ক্লায়েন্টের সামনে আকর্ষণীয়ভাবে উপস্থাপন করতে সাহায্য করি।
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="projects.html" class="btn btn-primary">
+              <i class="fa-solid fa-play"></i>
+              <span>প্রজেক্ট দেখুন (View Projects)</span>
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>কথা বলুন (Let's Talk)</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-tags">
+            <div class="quick-tag-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Brand Identity</span>
+            </div>
+            <div class="quick-tag-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Commercial Video</span>
+            </div>
+            <div class="quick-tag-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Color Grading & Sound</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Profile Showcase -->
+        <div class="hero-visual-wrapper">
+          <div class="profile-card-container">
+            <div class="profile-glow-ring"></div>
+            
+            <div class="profile-image-frame">
+              <!-- User Profile Picture -->
+              <img src="portfolio/me.jpg" alt="Profile Photo" id="heroProfileImg">
+            </div>
+
+            <!-- Floating Top Left Badge -->
+            <div class="floating-badge badge-top-left">
+              <div class="floating-icon purple">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Graphic Design</strong>
+                <span>Brand Identity & Art</span>
+              </div>
+            </div>
+
+            <!-- Floating Bottom Right Badge -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="floating-icon cyan">
+                <i class="fa-solid fa-film"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Video Editor</strong>
+                <span>Premiere Pro & DaVinci</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics / Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3 class="gradient-text">5+</h3>
+          <p>বছরের অভিজ্ঞতা (Years Exp.)</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="cyan-gradient-text">150+</h3>
+          <p>সফল প্রজেক্ট (Completed Projects)</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="gradient-text">50+</h3>
+          <p>সন্তুষ্ট ক্লায়েন্ট (Global Clients)</p>
+        </div>
+        <div class="stat-item">
+          <h3 class="cyan-gradient-text">99%</h3>
+          <p>ক্লায়েন্ট স্যাটিসফ্যাকশন (Satisfaction Rate)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Biography & Journey Deep-Dive Section -->
+  <section class="section bio-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">আমার পরিচয় ও কাজের ফিলোসফি</h2>
+        <p class="section-subtitle">
+          প্রতিটি ডিজাইনে থাকে একটি উদ্দেশ্য এবং প্রতিটি ভিডিও এডিটে থাকে একটি জীবন্ত গল্প।
+        </p>
+      </div>
+
+      <div class="bio-story-card">
+        <div class="bio-content-grid">
+          <div class="bio-text-block">
+            <p>
+              হাই! আমি একজন ভিজ্যুয়াল স্টোরিটেলার, গ্রাফিক ডিজাইনার এবং ভিডিও এডিটর। দীর্ঘ ৫ বছরের বেশি সময় ধরে আমি বিশ্বজুড়ে বিভিন্ন ব্র্যান্ড, কন্টেন্ট ক্রিয়েটর, মিউজিশিয়ান এবং এজেন্সিগুলোর সাথে কাজ করে আসছি।
+            </p>
+            <p>
+              আমার লক্ষ্য হলো সাধারণ কোনো ফ্রেম বা ডিজাইন তৈরি না করে এমন ভিজ্যুয়াল কনসেপ্ট ফুটিয়ে তোলা যা মানুষের নজর কাড়বে এবং দর্শকদের হৃদয়ে দাগ কাটবে। ভিডিওর পেসিং, মিউজিক বিট সিঙ্কিং, কালার গ্রেডিং এবং টাইপোগ্রাফির সূক্ষ্ম ভারসাম্য আমার কাজের মূল শক্তি।
+            </p>
+            <div class="bio-highlight-box">
+              "Great design is visual intelligence made visible; cinematic editing is the rhythm that turns frames into emotion."
+            </div>
+          </div>
+
+          <div class="specialty-cards">
+            <!-- Card 1 -->
+            <div class="spec-card">
+              <div class="spec-icon-box">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <h4>গ্রাফিক ও ব্র্যান্ড ডিজাইন</h4>
+              <p>লোগো, পূর্ণাঙ্গ ব্র্যান্ড আইডেন্টিটি, পোস্টার, সোশ্যাল মিডিয়া ব্যানার এবং মার্কেটিং আর্টওয়ার্ক তৈরি।</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="spec-card cyan">
+              <div class="spec-icon-box">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <h4>সিনেমাটিক ভিডিও এডিটিং</h4>
+              <p>কমার্শিয়াল অ্যাড, ইউটিউব ভিডিও, ইনস্টাগ্রাম রিলস, শর্টস এবং আকর্ষণীয় স্টোরি-ড্রাইভেন এডিটিং।</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="spec-card cyan">
+              <div class="spec-icon-box">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <h4>কালার গ্রেডিং ও অডিও ডিজাইন</h4>
+              <p>সঠিক কালার টোন, মুড ম্যাচিং এবং সাউন্ড এফেক্টস দিয়ে ভিডিওকে হলিউড-স্টাইল প্রফেশনাল লুক দেওয়া।</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="spec-card">
+              <div class="spec-icon-box">
+                <i class="fa-solid fa-cube"></i>
+              </div>
+              <h4>মোশন গ্রাফিক্স ও ট্রানজিশন</h4>
+              <p>ডাইনামিক টাইটেল অ্যানিমেশন, লোয়ার থার্ডস এবং কাস্টম ট্রানজিশন যা ভিডিওর ভিউয়ার রিটেনশন বাড়ায়।</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Software Arsenal -->
+      <div class="section-header" style="margin-top: 4rem; margin-bottom: 2.5rem;">
+        <span class="section-tag">Software Stack</span>
+        <h2 class="section-title">যেসব সফটওয়্যারে আমি অভিজ্ঞ</h2>
+        <p class="section-subtitle">ইন্ডাস্ট্রি স্ট্যান্ডার্ড সফটওয়্যার ব্যবহার করে সর্বোচ্চ কোয়ালিটির আউটপুট নিশ্চিত করি।</p>
+      </div>
+
+      <div class="tools-grid">
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(49, 168, 255, 0.15); color: #31a8ff;">
+            <i class="fa-solid fa-photo-film"></i>
+          </div>
+          <div class="tool-info">
+            <strong>Adobe Photoshop</strong>
+            <span>Photo Manipulation & UI</span>
+          </div>
+        </div>
+
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(255, 154, 0, 0.15); color: #ff9a00;">
+            <i class="fa-solid fa-bezier-curve"></i>
+          </div>
+          <div class="tool-info">
+            <strong>Adobe Illustrator</strong>
+            <span>Vector & Brand Logos</span>
+          </div>
+        </div>
+
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(153, 153, 255, 0.15); color: #9999ff;">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <div class="tool-info">
+            <strong>Adobe Premiere Pro</strong>
+            <span>Pro Video Editing</span>
+          </div>
+        </div>
+
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(207, 150, 255, 0.15); color: #cf96ff;">
+            <i class="fa-solid fa-sparkles"></i>
+          </div>
+          <div class="tool-info">
+            <strong>After Effects</strong>
+            <span>VFX & Motion Graphics</span>
+          </div>
+        </div>
+
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(255, 107, 107, 0.15); color: #ff6b6b;">
+            <i class="fa-solid fa-palette"></i>
+          </div>
+          <div class="tool-info">
+            <strong>DaVinci Resolve</strong>
+            <span>Advanced Color Grading</span>
+          </div>
+        </div>
+
+        <div class="tool-chip">
+          <div class="tool-icon" style="background: rgba(10, 207, 131, 0.15); color: #0acf83;">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+          <div class="tool-info">
+            <strong>Figma</strong>
+            <span>Social & Layout Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Project Preview Teaser Banner -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="bio-story-card" style="text-align: center; background: linear-gradient(135deg, rgba(99,102,241,0.12) 0%, rgba(6,182,212,0.12) 100%);">
+        <h3 style="font-size: 2.2rem; margin-bottom: 1rem; font-weight: 800;">
+          আমার সাম্প্রতিক কাজগুলো দেখার জন্য প্রস্তুত?
+        </h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem; font-size: 1.05rem;">
+          আমার প্রজেক্ট পেজে রয়েছে প্রিমিয়াম গ্রাফিক ডিজাইন ও সিনেমাটিক ভিডিও প্রজেক্টের এক্সক্লুসিভ শোকেস।
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="projects.html" class="btn btn-primary">
+            <i class="fa-solid fa-images"></i>
+            <span>প্রজেক্ট শোকেস দেখুন (View All Projects)</span>
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            <i class="fa-solid fa-envelope"></i>
+            <span>যোগাযোগ করুন (Contact Me)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-icon">
+              <i class="fa-solid fa-shapes"></i>
+            </div>
+            <div class="brand-text">STUDIO<span>.</span></div>
+          </a>
+          <p>
+            উচ্চমানের গ্রাফিক ডিজাইন এবং সিনেমাটিক ভিডিও এডিটিংয়ের মাধ্যমে বিশ্বমানের ব্র্যান্ড ভিজ্যুয়াল তৈরিতে আমি প্রতিশ্রুতিবদ্ধ।
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h5>পেইজসমূহ (Navigation)</h5>
+          <ul class="footer-links-list">
+            <li><a href="index.html">হোম (Home)</a></li>
+            <li><a href="projects.html">প্রজেক্টসমূহ (Portfolio)</a></li>
+            <li><a href="contact.html">যোগাযোগ (Contact)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h5>কানেক্ট করুন (Social)</h5>
+          <div class="social-links-grid" style="margin-top: 0; padding-top: 0; border-top: none;">
+            <a href="https://behance.net" target="_blank" class="social-pill" title="Behance"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-pill" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-pill" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-pill" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Creative Portfolio. All rights reserved.</p>
+        <p>Crafted with Passion for Design & Motion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
